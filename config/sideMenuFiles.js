@@ -7,7 +7,6 @@ const sideMenuItems = [
       'organize-pages.mdx',
       'images.mdx',
       'navigation.mdx',
-      'react-live-editor.mdx',
       'theme.mdx',
       '404.mdx',
       'github.mdx',
