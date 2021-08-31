@@ -13,20 +13,20 @@ Setup Google Analytics on your website.
 
 ## Install
 
-Google Analytics is available as a [third-party Gatsby plugin](https://www.gatsbyjs.com/plugins/gatsby-plugin-google-analytics/).
+Google Analytics is available as a third-party Next.js plugin.
 
 ```
-npm install --save gatsby-plugin-google-analytics
+npm install --save Next.js-plugin-google-analytics
 ```
 
 ## Setup
 
 ```js
-// gatsby-config.js
+// Next.js-config.js
 module.exports = {
   plugins: [
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `Next.js-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
         trackingId: 'YOUR_GOOGLE_ANALYTICS_TRACKING_ID',
@@ -35,5 +35,3 @@ module.exports = {
   ],
 }
 ```
-
-> Additional options are available on [gatsby-plugin-google-analytics documentation](https://www.gatsbyjs.com/plugins/gatsby-plugin-google-analytics).
