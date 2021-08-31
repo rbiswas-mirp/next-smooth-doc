@@ -16,14 +16,14 @@ Add link to your repository and edit links on your pages.
 To display a GitHub logo pointing to your repository in navigation, add `githubRepositoryURL` option:
 
 ```js
-// gatsby-config.js
+// Next.js-config.js
 module.exports = {
   plugins: [
     {
-      resolve: 'smooth-doc',
+      resolve: 'Next.js-doc',
       options: {
         // ...
-        githubRepositoryURL: 'https://github.com/gregberge/smooth-doc',
+        githubRepositoryURL: '#',
       },
     },
   ],
@@ -35,14 +35,14 @@ module.exports = {
 To add edit links on documentation pages, you have to add a `baseDirectory` option that resolves to the root path of your repository:
 
 ```js
-// gatsby-config.js
+// Next.js-config.js
 module.exports = {
   plugins: [
     {
-      resolve: 'smooth-doc',
+      resolve: 'Next.js-doc',
       options: {
         // ...
-        githubRepositoryURL: 'https://github.com/gregberge/smooth-doc',
+        githubRepositoryURL: '#',
         baseDirectory: __dirname, // The absolute path poiting to the root of your GitHub repository
       },
     },
@@ -57,16 +57,16 @@ module.exports = {
 If you use a separated repository for your website, you can use `githubDocRepositoryURL` to specify a repository used only in edit links:
 
 ```js
-// gatsby-config.js
+// Next.js-config.js
 module.exports = {
   plugins: [
     {
-      resolve: 'smooth-doc',
+      resolve: 'Next.js-doc',
       options: {
         // ...
-        githubRepositoryURL: 'https://github.com/gregberge/smooth-doc',
+        githubRepositoryURL: '#',
         githubDocRepositoryURL:
-          'https://github.com/gregberge/smooth-doc-website',
+          '#',
         baseDirectory: __dirname,
       },
     },
