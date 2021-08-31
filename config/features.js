@@ -26,7 +26,7 @@ const features = [
   },
   {
     title: 'Enhanced SEO',
-    desc: 'Smooth DOC handles all SEO metadata, sitemap and social sharing for you.',
+    desc: 'Next.js DOC handles all SEO metadata, sitemap and social sharing for you.',
     image: '/images/icons8-system-task-100.png'
   },
   {
