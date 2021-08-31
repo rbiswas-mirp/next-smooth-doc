@@ -12,7 +12,6 @@ const sideMenuItems = [
       '404.mdx',
       'github.mdx',
       'docsearch.mdx',
-      'google-analytics.mdx',
       'ads.mdx',
       'redirect.mdx',
       'deploy.mdx',
