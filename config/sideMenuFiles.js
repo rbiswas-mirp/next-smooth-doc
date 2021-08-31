@@ -21,12 +21,6 @@ const sideMenuItems = [
     section: 'Components',
     children: [
       'components/Article.mdx',
-      'components/Button.mdx',
-      'components/Feature.mdx',
-      'components/Hero.mdx',
-      'components/ScreenContainer.mdx',
-      'components/SiblingNav.mdx',
-      'components/Box.mdx',
     ]
   },
   {
