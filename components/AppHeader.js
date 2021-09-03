@@ -2,7 +2,7 @@ import React from 'react'
 
 import styled, { x, useColorMode, down, css } from '@xstyled/styled-components'
 import { ScreenContainer } from './ScreenContainer'
-import { DocSearch } from './DocSearch'
+// import { DocSearch } from './DocSearch'
 import { NavLink } from './Nav'
 import { AppNav } from './AppNav'
 
@@ -103,11 +103,11 @@ export function AppHeader() {
               )}
             </NavLink>
           </x.div>
-          {siteMetadata.docSearch ? (
+          {/* {siteMetadata.docSearch ? (
             <x.div col="auto" px={2} display={{ xs: 'none', md: 'block' }}>
               <DocSearch {...siteMetadata.docSearch} />
             </x.div>
-          ) : null}
+          ) : null} */}
           <AppNav col="auto" px={2} />
         </x.div>
       </ScreenContainer>
