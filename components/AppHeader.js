@@ -2,7 +2,7 @@ import React from 'react'
 
 import styled, { x, useColorMode, down, css } from '@xstyled/styled-components'
 import { ScreenContainer } from './ScreenContainer'
-// import { DocSearch } from './DocSearch'
+import { DocSearch } from './DocSearch'
 import { NavLink } from './Nav'
 import { AppNav } from './AppNav'
 
