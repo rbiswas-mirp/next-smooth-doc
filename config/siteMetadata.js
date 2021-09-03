@@ -9,7 +9,7 @@ const siteMetadata = {
   ],
   carbonAdsURL: '//cdn.carbonads.com/carbon.js?serve=CE7IL2JN&placement=xstyleddev',
   twitterAccount: '#',
-  siteUrl: 'https://next-js-doc.vercel.app/docs/',
+  siteUrl: 'https://iitm-kb.vercel.app/',
   author: 'Rahul Biswas',
   docSearch: {
     apiKey: 'a0c23a738fe1cfffa923daba2eb185be',
