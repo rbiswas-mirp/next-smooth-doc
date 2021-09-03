@@ -1,3 +1,7 @@
+import { 
+  HeroSection, Hero, HeroBody, HeroTitle, HeroTeaser, 
+  HeroActionList, HeroAction, 
+ } from '../components/Hero'
 import {
   FeatureSection, FeatureList, Feature, FeatureImage, 
   FeatureText, FeatureTitle, 
