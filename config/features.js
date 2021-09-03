@@ -2,7 +2,8 @@ const features = [
   {
     title: 'Use NextJS',
     desc: 'Next.js gives you the best developer experience with all the features you need for production',
-    image: '/images/icons8-registry-editor-100.png'
+    image: '/images/icons8-registry-editor-100.png',
+    link: 'https://iitm-kb.vercel.app/'
   },
   {
     title: 'Powered by MDX',
