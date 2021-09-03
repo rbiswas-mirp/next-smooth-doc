@@ -1,6 +1,6 @@
 const siteMetadata = {
-  title: 'Next.js DOC',
-  description: 'Ready to use documentation theme for Nextjs.',
+  title: 'IITM Online Degree Knowledge Base',
+  description: 'A Student-made Knowledge Base or IITM Online B.Sc Degree',
   githubRepositoryURL: '#',
   socialImage: '/images/social.jpg',
   sections: ['About', 'Guide', 'Components', 'Reference'],
