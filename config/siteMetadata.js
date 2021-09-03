@@ -1,6 +1,6 @@
 const siteMetadata = {
   title: 'IITM Online Degree Knowledge Base',
-  description: 'A Student-made Knowledge Base or IITM Online B.Sc Degree',
+  description: 'A Student-made Knowledge Base for IITM Online B.Sc Degree',
   githubRepositoryURL: '#',
   socialImage: '/images/social.jpg',
   sections: ['About', 'Guide', 'Components', 'Reference'],
@@ -17,8 +17,8 @@ const siteMetadata = {
   },
   hero: {
     backgroundImageURL: '/images/hero-background.png',
-    slogan: 'Create awesome docs without compromise',
-    teaser: 'A ready-to-use Next.js theme to build docs for all your projects. Next.js DOC makes documentation easy.',
+    slogan: 'IITM Online Degree Knowledge Base',
+    teaser: 'A Student-made Knowledge Base for IITM Online B.Sc Degree Which is Regularly Updates',
     btnTxt: 'Explore Docs',
     btnUrl: '/docs/getting-started/'
   },
