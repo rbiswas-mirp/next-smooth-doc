@@ -13,9 +13,6 @@ export default function FeaturesBlock({features}) {
               <FeatureImage src={f.image}/>
               <FeatureTitle>{f.title}</FeatureTitle>
               <FeatureText>{f.desc}</FeatureText>
-              <Button href={hero.btnUrl}>
-                  {hero.btnTxt}
-              </Button>
             </Feature>
           ))
         }
